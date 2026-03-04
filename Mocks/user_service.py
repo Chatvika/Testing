@@ -22,3 +22,4 @@ def test_get_user_name():
 
     # Verify method was called
     fake_db.get_name.assert_called_once()
+    

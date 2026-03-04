@@ -174,5 +174,5 @@ if __name__ == "__main__":
     print("=" * 60)
     print("IgniteLegends Login Test - Edge Browser")
     print("=" * 60)
-    test_ignitelegends_login()
+    test_ignitelegends_login() 
     print("=" * 60)
