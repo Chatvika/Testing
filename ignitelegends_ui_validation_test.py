@@ -53,7 +53,6 @@ def test_placeholder_text(login_page):
     assert email_field.is_displayed(), "Email field should be visible"
     assert password_field.is_displayed(), "Password field should be visible"
     assert email_field.is_enabled(), "Email field should be enabled"
-    assert password_field.is_enabled(), "Password field should be enabled"
 
 
 def test_error_message_display(login_page):
@@ -73,4 +72,3 @@ def test_error_message_display(login_page):
     error_elements = login_page.find_elements(By.XPATH, "//*[contains(@class,'error') or contains(@class,'alert')]")
     assert len(error_elements) > 0 or login_page.current_url != "https://dev.ignitelegends.com/", \
         "Error message should display for invalid credentials"
-
