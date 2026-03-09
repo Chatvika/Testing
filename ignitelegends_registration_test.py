@@ -119,7 +119,6 @@ def test_registration_auto_fill():
                 continue
         
         time.sleep(1)
-        
         # Click Submit/Register button
         submit_selectors = [
             "//button[@type='submit']",
