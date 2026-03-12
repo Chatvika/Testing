@@ -49,4 +49,3 @@ time.sleep(3)
 print(f"URL: {driver.current_url}")
 driver.quit()
 
-
