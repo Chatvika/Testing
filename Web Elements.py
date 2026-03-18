@@ -42,7 +42,7 @@ time.sleep(1)
 
 dropdown.select_by_index(2)
 time.sleep(1)
-# 🔹 File Upload
+#  File Upload
 # -----------------------------------
 driver.get("https://the-internet.herokuapp.com/upload")
 
